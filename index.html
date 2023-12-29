@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pixel art</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body oncontextmenu="return false;">
+        <div class="pixel-art-container">
+            <header class="pixel-art-header">
+                <span class="download-btn" onclick="downloadCanvas()">Télécharger l'image</span>
+                <span class="download-btn">Charger une image</span>
+                <span class="download-btn" onclick="effacerImage()">Tout effacer</span>
+            </header>
+            <div class="pixel-art-main">
+                <canvas id="pixelCanvas" height="800" width="800"></canvas>
+            </div>
+            <footer class="pixel-art-footer">
+                <div class="color-palette">
+                    <div class="palette-row">
+                        <div class="color" style="background-color: #fafafa;"></div>
+                        <div class="color" style="background-color: #dadada;"></div>
+                        <div class="color" style="background-color: #b4b4b4;"></div>
+                        <div class="color" style="background-color: #8e8e8e;"></div>
+                        <div class="color" style="background-color: #666666;"></div>
+                        <div class="color" style="background-color: #3d3d3d;"></div>
+                        <div class="color" style="background-color: #212121;"></div>
+                        <div class="color" style="background-color: #000000;"></div>
+                        <div class="color" style="background-color: #f49ac1;"></div>
+                        <div class="color" style="background-color: #f26d7d;"></div>
+                        <div class="color" style="background-color: #a22226;"></div>
+                        <div class="color" style="background-color: #651010;"></div>
+                        <div class="color" style="background-color: #fdc789;"></div>
+                        <div class="color" style="background-color: #fbaf5d;"></div>
+                        <div class="color" style="background-color: #e18121;"></div>
+                        <div class="color" style="background-color: #895000;"></div>
+                    </div>
+                    <div class="palette-row">
+                        <div class="color" style="background-color: #fff799;"></div>
+                        <div class="color" style="background-color: #fff126;"></div>
+                        <div class="color" style="background-color: #aba000;"></div>
+                        <div class="color" style="background-color: #827c00;"></div>
+                        <div class="color" style="background-color: #c4df9b;"></div>
+                        <div class="color" style="background-color: #7cc576;"></div>
+                        <div class="color" style="background-color: #197b30;"></div>
+                        <div class="color" style="background-color: #005826;"></div>
+                        <div class="color" style="background-color: #6dcff6;"></div>
+                        <div class="color" style="background-color: #00bef3;"></div>
+                        <div class="color" style="background-color: #004b80;"></div>
+                        <div class="color" style="background-color: #002157;"></div>
+                        <div class="color" style="background-color: #8781bd;"></div>
+                        <div class="color" style="background-color: #8560a8;"></div>
+                        <div class="color" style="background-color: #662d91;"></div>
+                        <div class="color" style="background-color: #440e62;"></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
